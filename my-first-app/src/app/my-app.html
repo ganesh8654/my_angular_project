@@ -1,0 +1,20 @@
+<div class="container">
+
+
+    <label>server Name</label>
+    <!--<input type="text"-->
+    <!--class="form-control" -->
+    <!--(input)="onUpdateServerName($event)">-->
+    <input type="text" class="form-control" [(ngModel)]='serverName'>
+
+
+    <!-- <p>{{serverName}}</p>-->
+
+
+
+    <h3>hi angular </h3>
+    <hr>
+    <h2>app-kit</h2>
+    <p>{{'server'}} with Id {{serverId}} is {{getserverstatus()}} </p>
+    <button class="btn btn-primary" [disabled]="!allownewserver" (click)="onCreateServer()"> add button</button>
+    <p>{{serverConnectionStatus}}</p>

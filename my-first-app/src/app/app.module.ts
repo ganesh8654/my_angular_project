@@ -1,15 +1,24 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
 import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { KitComponent } from './kit/kit.component';
 
 
+
+
+
+
+
 @NgModule({
   declarations: [
-    AppComponent, KitComponent
+    AppComponent,
+    KitComponent,
+    
+    
+    
+    
     
   ],
   imports: [
@@ -20,9 +29,3 @@ import { KitComponent } from './kit/kit.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-
-
-
-
-
